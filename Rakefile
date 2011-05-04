@@ -17,13 +17,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "import_from_ebay"
   gem.homepage = "http://github.com/quickerbuy/import_from_ebay"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{"Import from eBay"}
+  gem.description = %Q{"Import categories and products from eBay"}
   gem.email = "admin@quickerbuy.com"
-  gem.authors = ["Bob Wang"]
+  gem.authors = ["Kevin Gu", "Kyle He", "Bob Wang"]
+  Jeweler::GemcutterTasks.new
   # dependencies defined in Gemfile
 end
-Jeweler::RubygemsDotOrgTasks.new
 
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
